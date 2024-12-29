@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior : smooth;
 }
 
 body {
-    background-color : #7691bc;
+    background-color : #819ece;
+    overflow-x : hidden ;
 }
 
 .nav {
@@ -59,7 +61,7 @@ body {
 #landing h1 {
     position : absolute;
     z-index: 3;
-    top : 50%;
+    top : 27%;
     right : 0;
     left : 50%;
     font-size : 40px;
@@ -126,6 +128,7 @@ body {
 }
 
 .content {
+    background-color: #7691bc;
     z-index : 9999;
     position : relative;
     text-align : center;
@@ -144,9 +147,36 @@ body {
     text-align : justify;
 }
 
+@media screen and (max-width: 768px) {
+    .nav {
+        padding : 20px 50px;
+    }
 
+    .nav ul li a {
+        font-size : 18px;
+    }
 
+    #landing h1 {
+        font-size : 30px;
+    }
 
+    .btn {
+        top : 85%;
+    }
+
+    #about {
+        padding : 50px;
+    }
+
+    .content {
+        padding : 20px;
+    }
+
+    .content hr {
+        width : 20%;
+    }
+    
+}
 
 
 
