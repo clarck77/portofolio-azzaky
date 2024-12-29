@@ -147,34 +147,9 @@ body {
     text-align : justify;
 }
 
-@media screen and (max-width: 799px) {
-    .hero {
-        height: auto;
-    }
 
-    .hero img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
 
-    #landing h1 {
-        font-size: 24px;
-        top: 20%;
-        left: 10%;
-        right: 10%;
-    }
 
-    .btn {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
 
-    .content hr {
-        width: 80%;
-    }
 
-    .content p {
-        padding: 0 10px;
-    }
-}
+
