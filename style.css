@@ -4,11 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior : smooth;
+    overflow-x : hidden ;
 }
 
 body {
     background-color : #819ece;
     overflow-x : hidden ;
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
@@ -147,38 +150,34 @@ body {
     text-align : justify;
 }
 
-@media screen and (max-width: 768px) {
-    .nav {
-        padding : 20px 50px;
+@media screen and (max-width: 799px) {
+    .hero {
+        height: auto;
     }
 
-    .nav ul li a {
-        font-size : 18px;
+    .hero img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 
     #landing h1 {
-        font-size : 30px;
+        font-size: 24px;
+        top: 20%;
+        left: 10%;
+        right: 10%;
     }
 
     .btn {
-        top : 85%;
-    }
-
-    #about {
-        padding : 50px;
-    }
-
-    .content {
-        padding : 20px;
+        padding: 10px 20px;
+        font-size: 14px;
     }
 
     .content hr {
-        width : 20%;
+        width: 80%;
     }
-    
+
+    .content p {
+        padding: 0 10px;
+    }
 }
-
-
-
-
-
